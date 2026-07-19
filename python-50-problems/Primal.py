@@ -43,3 +43,4 @@ print(Prime(0))      # 0 → not prime   ← граница №2
 print(Prime(97))     # 97 → prime
 print(Prime(25))     # что скажет ваш код?
 print(Prime(49))     # а тут?
+print(Prime(6))      # 6 → not prime  ← девятая строка тестов
