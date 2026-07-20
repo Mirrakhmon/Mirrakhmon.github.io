@@ -18,7 +18,7 @@ class Word:
         k=0
         for letter in n:
             if letter in "aeiou":      # смотрим только на букву в руке
-        k += 1
+                k += 1
         return k
 
 
