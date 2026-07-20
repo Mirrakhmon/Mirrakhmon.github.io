@@ -16,9 +16,9 @@ class Word:
     def count_vowels(self):
         n=self.n
         k=0
-        for i in range(len(n)):
-            if n[i] in "aeiou":
-                k+=1
+        for letter in n:
+            if letter in "aeiou":      # смотрим только на букву в руке
+        k += 1
         return k
 
 
