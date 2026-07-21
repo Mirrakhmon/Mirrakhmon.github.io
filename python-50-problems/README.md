@@ -8,7 +8,7 @@ where it makes sense — operator overloading and `@property` validation.
 Every file is self-contained: class + tests with expected output in
 comments. Every run prints a timestamp.
 
-## Progress: 8 / 50
+## Progress: 13 / 50
 
 | # | Problem | File | Key concepts |
 |---|---------|------|--------------|
@@ -18,6 +18,11 @@ comments. Every run prints a timestamp.
 | 4 | Multiplication table | `../Multiplication_Table.py` | string building, `join` |
 | 5 | Factorial | `Factorial.py` | `@property`, validation, mutation test |
 | 6 | Prime check | `Primal.py` | `math.isqrt`, divisor pairs, early return |
+| 7 | Fibonacci | `Fibonacci.py` | list accumulation, `result[-1]`/`result[-2]` |
+| 8 | GCD | `GCD.py` | Euclid's algorithm, tuple swap `a, b = b, a % b` |
+| 9 | Power | `power_hand.py` | loop-based exponentiation |
+| 10 | Reverse number | `ReverseNumber.py` | arithmetic digit reversal |
+| 11 | Word count | `word_count.py` | short-circuit guard against IndexError |
 | 20 | Count vowels | `palindrome.py` | `in` operator, normalization in `__init__` |
 | 24 | Palindrome | `palindrome.py` | two pointers, every path returns |
 
