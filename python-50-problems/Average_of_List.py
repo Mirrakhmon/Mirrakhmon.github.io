@@ -14,6 +14,7 @@ class Average:
     def n(self, n):
         if not isinstance(n, list):
             raise TypeError("n must be a number")
+        self._n=n
         if len(n):
             self._n=n
         else:
