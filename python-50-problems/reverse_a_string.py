@@ -7,8 +7,8 @@ class StringReverser:
     def reverse(self):
         text=self.text
         rtext=""
-        for i in range(len(text)):
-            rtext+=text[-i-1]
+        for i in range(len(text)-1,-1,-1):
+            rtext+=text[i]
         return rtext
 print(f"=== Run: {datetime.now().strftime('%d.%m.%Y %H:%M:%S')} ===")
 print(StringReverser("hello"))    # olleh
