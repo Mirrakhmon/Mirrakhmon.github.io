@@ -1,0 +1,14 @@
+
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        if len(a) < len(b): return self.addBinary(b, a)
+        c = ''
+        b = ('0' * (len(a) - len(b))) + b
+        over = 0
+        for i in range(len(a) - 1, -1, -1):
+            s = int(a[i]) + int(b[i]) + over
+            c = str(s % 2) + c
+            over = s // 2
+        if over == 1:
+            c = '1' + c
+        return c

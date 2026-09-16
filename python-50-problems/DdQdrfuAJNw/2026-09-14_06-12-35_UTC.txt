@@ -1,0 +1,14 @@
+You type google.com. Nothing near you knows its number.
+
+Your phone asks the resolver. The resolver's cache is empty, so it asks the root. The root does not know the number either. It only knows who runs .com.
+.com only knows who runs google. 
+
+Google's own server knows: 142.250.72.14.
+
+The answer comes back and the resolver writes it down. So, the next time anyone asks, from any tab, it is one hop and instant.
+
+A name is a question. DNS is the chain that answers it, once.
+
+algobox.dev
+
+#programming #computerscience #softwareengineering #networking #devtips

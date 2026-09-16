@@ -32,7 +32,7 @@ class Fibonacci:
         return result
 
 print(Fibonacci(10))   # 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
-print(Fibonacci(1))    # 0            ← граница!
+print(Fibonacci(4))    # 0            ← граница!
 print(Fibonacci(2))    # 0, 1         ← граница!
 print(Fibonacci(0))    # (empty)      ← самая коварная граница
 #print(Fibonacci(10).generate())    # напечатает None? или список?
